@@ -1,7 +1,7 @@
 // MBTI診断用の新しい質問と選択肢（ユーザー指定）
 const questions = [
   { q: '休みの日はなるべく一人で過ごしたい', a: { text: 'YES', type: 'I' }, b: { text: 'NO', type: 'E' } },
-  { q: '子供の頃、国語の物語文を読み、問題に答えるのが得意だった。', a: { text: 'YES', type: 'F' }, b: { text: 'NO', type: 'T' } },
+  { q: '自分の発言が相手を傷つけないか、いつも気にする', a: { text: 'YES', type: 'F' }, b: { text: 'NO', type: 'T' } },
   { q: 'ジレンマについて考えることがよくある', a: { text: 'YES', type: 'N' }, b: { text: 'NO', type: 'S' } },
   { q: '熱く語られると、つい感情移入してしまう', a: { text: 'YES', type: 'F' }, b: { text: 'NO', type: 'T' } },
   { q: '旅行の際は、あまり細かく予定を立てたり下調べをしない', a: { text: 'YES', type: 'P' }, b: { text: 'NO', type: 'J' } },
@@ -10,7 +10,7 @@ const questions = [
   { q: '考えすぎて動けないことが多々ある。', a: { text: 'YES', type: 'N' }, b: { text: 'NO', type: 'S' } },
   { q: 'To do リストを作るのは好きな方だ。', a: { text: 'YES', type: 'J' }, b: { text: 'NO', type: 'P' } },
   { q: 'アートをみて、綺麗だな　とか素敵だな　という感想のほかに、「なぜこんな絵になったんだろう」「どんな気持ちで書いたのだろう」のような疑問が浮かんでくる', a: { text: 'YES', type: 'N' }, b: { text: 'NO', type: 'S' } },
-  { q: '人の感情を読むのが苦手だ', a: { text: 'YES', type: 'T' }, b: { text: 'NO', type: 'F' } },
+  { q: '結果よりも頑張った過程が大切だと思う', a: { text: 'YES', type: 'F' }, b: { text: 'NO', type: 'T' } },
   { q: '悩みがあったら誰かに相談するタイプだ', a: { text: 'YES', type: 'E' }, b: { text: 'NO', type: 'I' } },
 ];
 
